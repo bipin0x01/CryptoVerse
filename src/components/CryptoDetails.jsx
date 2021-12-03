@@ -13,15 +13,15 @@ const { Option } = Select;
 
 const CryptoDetails = () => {
     const { coinId } = useParams();
-    const [timeperiod, setTimeperiod] = useState('7d')
+    const [timeperiod, setTimeperiod] = useState('7d');
     const { data, isFetching } = useGetCryptoDetailsQuery(coinId);
-    const { data: coinHistory } = useGetCryptoHistoryQuery({coinId, timeperiod});
+    const { data:coinHistory } = useGetCryptoHistoryQuery({coinId, timeperiod});
     
-    console.log(coinHistory)
     const cryptoDetails = data?.data?.coin;
     const time = ['3h', '24h', '7d', '30d', '1y', '3m', '3y', '5y'];
 
     if (isFetching) return <Loader/>;
+    
 
     const stats = [
     { title: 'Price to USD', value: `$ ${cryptoDetails.price && millify(cryptoDetails.price)}`, icon: <DollarCircleOutlined /> },
