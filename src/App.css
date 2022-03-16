@@ -41,7 +41,7 @@ a:hover{
     left: 0;
     margin: 10px;
     height: 100vh;
-    margin: 0px;
+    margin: 0;
     background-color: rgb(0, 21, 41);
 }
 
@@ -106,7 +106,7 @@ a:hover{
     .main{
         flex: 1;
         margin-top: 90px;
-        margin-left: 0px;
+        margin-left: 0;
         margin-right: 10px;
     }
 
@@ -124,7 +124,7 @@ a:hover{
 
     .ant-menu{
         position: absolute;
-        right: 0px;
+        right: 0;
     }
     .home-title{
         font-size: 1.4rem !important;
@@ -235,7 +235,7 @@ a:hover{
 }
 
 .coin-links{
-  padding: 0px 20px;
+  padding: 0 20px;
     flex: 0.5;
 }
 
@@ -270,13 +270,13 @@ a:hover{
         flex-direction: column;
     }
     .stats-container h2{
-        margin-top: 0px;
+        margin-top: 0;
     }
 }
 
 @media screen and (max-width: 500px){
     .coin-links{
-        padding: 0px;
+        padding: 0;
     }
     .coin-detail-container{
         margin: 0;
@@ -308,7 +308,7 @@ width: 70%;
 }
 .news-card p{
     color: black;
-    margin: 10px 0px !important;
+    margin: 10px 0 !important;
 }
 .provider-container{
     display: flex;
@@ -337,7 +337,7 @@ width: 70%;
     font-weight: 900 !important;
 }
 .current-price{
-    margin-top: 0px !important;
+    margin-top: 0 !important;
     font-weight: 900 !important;
 }
 .home-heading-container{
@@ -347,13 +347,13 @@ width: 70%;
     margin-top: 40px;
 }
 .show-more{
-    margin-top: 0px !important;
+    margin-top: 0 !important;
 }
 .exchange-image{
-    margin: 0px 10px !important;
+    margin: 0 10px !important;
 }
 .search-crypto{
-    margin: 20px auto 30px auto;
+    margin: 20px auto 30px;
     width: 250px;
 }
 .crypto-card-container{
