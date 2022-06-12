@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^12.8.3",
     "antd": "^4.16.13",
     "axios": "^0.21.1",
+    "caniuse-lite": "^1.0.30001352",
     "chart.js": "^3.5.1",
     "html-react-parser": "^1.2.8",
     "millify": "^4.0.0",
@@ -21,7 +22,7 @@
     "react-router-dom": "^5.2.1",
     "react-scripts": "4.0.3",
     "uuid": "^8.3.2",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "w^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
